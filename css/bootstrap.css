@@ -143,6 +143,17 @@ a.bg-success:hover {
   height: auto;
   margin: 0 auto;
 }
+.card-img-overlay {
+  background-color: var(--second-modal-color);
+}
+
+.card-text a {
+  color: var(--action-color);
+}
+
+.card-text a:hover {
+  color: var(--action-modal-color);
+}
 
 /* ********** My Styles ********** */
 
