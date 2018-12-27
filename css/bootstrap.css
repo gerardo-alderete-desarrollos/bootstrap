@@ -71,8 +71,15 @@
   }
   
   /* ********** Bootstrap Styles ********** */
-  
-  
+  .navbar-dark {
+    background-color: var(--second-color) !important;
+  }
+  .navbar-brand img {
+    height: var(--logo-height);
+    width: auto;
+    padding: var(--logo-spacing);
+
+  }
   /* ********** My Styles ********** */
   
   /* ********** Media Queries Small ********** */
