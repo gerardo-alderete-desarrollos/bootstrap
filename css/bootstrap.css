@@ -105,8 +105,34 @@
       font-weight: bold;
       transition: all .3s ease;
   }
+  .bg-success {
+      background-color: var(--action-color) !important;
+  }
+  a.bg-success:hover {
+    background-color: var(--action-color) !important;
+    opacity: .85;
+    transition: all .3s ease;
+  }
+  .text-success {
+      color: var(--action-color) !important;
+  }
   /* ********** My Styles ********** */
-  
+  .HeroImage {
+    padding-top: var(--header-height);
+    min-height: calc(100vh + var(--logo-height));
+    background-size: auto;
+    background-color: rgb(108, 130, 145);
+    background-image: linear-gradient(135deg, rgba(47,145,224,91), rgba(7,31,51,97) 79%);
+    background-image: linear-gradient(131deg, rgba(28,118,173,92), rgba(83,184,152,1) 79%);
+  }
+  .u-fullScreen {
+    width: 100%;
+    min-height: 100vh; 
+  }
+  .u-flowText {
+    font-size: 1.25rem;
+  }
+
   /* ********** Media Queries Small ********** */
   @media (min-width: 576px) {
   
@@ -121,6 +147,9 @@
   @media (min-width: 992px) {
     .nav-item:hover {
         background-color: transparent;
+    }
+    .u-flowText {
+        font-size: 1.75rem;
     }
   }
   
