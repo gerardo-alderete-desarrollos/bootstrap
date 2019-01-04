@@ -137,12 +137,6 @@ a.bg-success:hover {
   color: var(--alternate-modal-color);
 }
 
-.carousel {
-  max-width: 600px;
-
-  height: auto;
-  margin: 0 auto;
-}
 .card-img-overlay {
   background-color: var(--second-modal-color);
 }
@@ -168,6 +162,12 @@ a.bg-success:hover {
 
 .Services img {
   background-color: var(--alternate-color);
+}
+.Website .carousel {
+  max-width: 600px;
+
+  height: auto;
+  margin: 0 auto;
 }
 
 .ResponsiveSites figure {
@@ -202,6 +202,11 @@ a.bg-success:hover {
 .u-fullScreen {
   width: 100%;
   min-height: 100vh;
+}
+.AboutInfo {
+  padding: 1rem;
+  font-style: 150%;
+  background-color: var(--second-modal-color);
 }
 
 .u-flowText {
