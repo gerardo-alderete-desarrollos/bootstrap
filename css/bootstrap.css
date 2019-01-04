@@ -178,7 +178,27 @@ a.bg-success:hover {
 .ResponsiveSites figure img {
   padding: .5rem;
 }
+.WorkFlow-steps sup {
+  font-size: 1rem;
+  color: var(--main-color);
+}
+.SinglePage,
+.MultiPage {
+  background-image: url(../img/single-page.jpeg);
+  background-size: no-repeat;
+  background-size: cover;
+  
+}
+.MultiPage {
+  background-image: url(../img/multipage.jpeg);
+}
 
+
+.SinglePage > .u-fullScreen,
+.MultiPage > .u-fullScreen {
+  background-color: var(--bg-modal-color);
+  height: inherit;
+}
 .u-fullScreen {
   width: 100%;
   min-height: 100vh;
