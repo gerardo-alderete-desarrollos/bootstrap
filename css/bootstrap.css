@@ -199,14 +199,17 @@ a.bg-success:hover {
   background-color: var(--bg-modal-color);
   height: inherit;
 }
-.u-fullScreen {
-  width: 100%;
-  min-height: 100vh;
-}
 .AboutInfo {
   padding: 1rem;
   font-style: 150%;
   background-color: var(--second-modal-color);
+}
+.Footer {
+  background-color: var(--second-color);
+}
+.u-fullScreen {
+  width: 100%;
+  min-height: 100vh;
 }
 
 .u-flowText {

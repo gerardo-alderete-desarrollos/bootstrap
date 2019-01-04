@@ -1,4 +1,8 @@
 ;
-((d, w, n, c) => {
+((d) => {
+    d.addEventListener('DOMContentLoaded', e => {
+        const copy = d.querySelector('.Footer small')
 
-})(document, window, navigator, console.log);
+        copy.innerHTML = `&copy; ${new Date().getFullYear()} @jonmircha`
+    })
+})(document);
